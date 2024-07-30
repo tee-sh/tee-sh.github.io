@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+        body {
+            background-image: url(data:image/jpeg;base64,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);
+        }
+        img {
+            border-radius: 70%;
+                }
+   </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#" style="--i:1"class="active" >Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Skill</a>
+            <a href="#" style="--i:4">Portfolio</a>
+            <a href="#" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Teena Shrivastava</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Frontend Developer(Fresher).
+                <br>Expertise is to create website.
+            <div class="home-sci">
+                <a href="#" style="--i:7"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+            </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Untitled design.jpg" width="270px" height="250px"
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="mian.js"></script>
+</body>
+</html>
